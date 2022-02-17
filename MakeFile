@@ -1,0 +1,11 @@
+VENV_DIR=.venv
+setup: ## creates a clean python virtual environment
+	@# remove old venv if it exists
+	@if [ -d "${VENV_DIR}" ]; then \
+		echo "deleting existing virutal env found in ${VENV_DIR}/"; \
+		rm -rf ${VENV_DIR}; \
+	fi
+
+	@echo "creating new virtual env at ${VENV_DIR}/"
+	@python -m venv ${VENV_DIR} 
+	@echo "Virtual env available at ${VENV_DIR}/"
