@@ -8,9 +8,8 @@
 
 3. Pyenv Setup  https://github.com/pyenv-win/pyenv-win 
     1. After Successful installing pyenv execute following command :
-    ``` pyenv install 3.9.5
-        pyenv global 3.9.5
-    ```
+        `pyenv install 3.9.5`
+        `pyenv global 3.9.5`
 
 
 ### Linux
